@@ -1,8 +1,10 @@
 import "../node_modules/react/umd/react.production.min.js";
-import "../node_modules/react-dom/umd/react-dom.production.min.js"
+import "../node_modules/react-dom/umd/react-dom.production.min.js";
 
-const rootDomElement = document.getElementById('root')
+const rootDomElement = document.getElementById("root");
 
-const root = ReactDOM.createRoot(rootDomElement)
+const root = ReactDOM.createRoot(rootDomElement);
 
-const reactHeadingElement = 
+const reactHeadingElement = React.createElement("h1", {}, "Hello from JSX!");
+
+root.render(reactHeadingElement);
