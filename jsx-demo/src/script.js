@@ -9,13 +9,20 @@ const root = ReactDOM.createRoot(rootDomElement);
 // const reactSecondHeading = React.createElement("h2", {}, "The best syntax ever!");
 // const header = React.createElement("header", { className: "site-header" }, reactHeading, reactSecondHeading);
 
-const headerJSX = (
-  <header className="site-header">
-    <h1>Hello from JSX!</h1>
-    <h2>The best syntax ever!</h2>
+const Footer = () => {
+  return React.createElement("div", { className: "site-footer" }, React.createElement("p", {}, "All rights reserved"));
+};
 
-    <p>something else here</p>
-  </header>
+const headerJSX = (
+  <div>
+    <header className="site-header">
+      <h1>Hello from JSX!</h1>
+      <h2>The best syntax ever!</h2>
+
+      <p>something else here</p>
+    </header>
+    <Footer />
+  </div>
 );
 
 root.render(headerJSX);
