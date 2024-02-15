@@ -9,8 +9,28 @@ var root = ReactDOM.createRoot(rootDomElement);
 // const reactSecondHeading = React.createElement("h2", {}, "The best syntax ever!");
 // const header = React.createElement("header", { className: "site-header" }, reactHeading, reactSecondHeading);
 
+// const Footer = () => {
+//   return React.createElement(
+//     "div",
+//      { className: "site-footer" },
+//       React.createElement(
+//         "p",
+//          {},
+//           "All rights reserved"
+//           )
+//           );
+// };
+
 var Footer = function Footer() {
-  return React.createElement("div", { className: "site-footer" }, React.createElement("p", {}, "All rights reserved"));
+  React.createElement(
+    "div",
+    { className: "site-footer" },
+    React.createElement(
+      "p",
+      null,
+      "All rights reserved \xA9"
+    )
+  );
 };
 
 var headerJSX = React.createElement(
