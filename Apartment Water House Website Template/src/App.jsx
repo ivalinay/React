@@ -1,5 +1,5 @@
 /* eslint-disable quotes */
-import Preloader from "./components/Preloader";
+import Preloader from "./components/index/Preloader";
 import Header from "./components/Header";
 import HeaderArea from "./components/HeaderArea";
 import MainBanner from "./components/MainBanner";
