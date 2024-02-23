@@ -1,4 +1,4 @@
-export default function  Header() {
+export default function  SubHeader() {
   return (
     <div className="sub-header">
       <div className="container">

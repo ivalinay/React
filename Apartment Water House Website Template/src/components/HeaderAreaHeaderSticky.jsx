@@ -1,4 +1,4 @@
-export default function HeaderArea() {
+export default function HeaderAreaHeaderSticky() {
     return (
       <header className="header-area header-sticky">
         <div className="container">
