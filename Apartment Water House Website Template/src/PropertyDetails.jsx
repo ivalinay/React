@@ -4,8 +4,8 @@ import Preloader from "./components/Preloader";
 import SubHeader from "./components/SubHeader";
 import HeaderAreaHeaderSticky from "./components/HeaderAreaHeaderSticky";
 import PageHeadingHeaderText from "./components/contact/PageHeadingHeaderText";
-import SinglePropertySection from "./components/propertyDetails.jsx/SinglePropertySection";
-import SectionBestDeal from "./components/propertyDetails.jsx/SectionBestDeal";
+import SinglePropertySection from "./components/propertyDetails/SinglePropertySection";
+import SectionBestDeal from "./components/propertyDetails/SectionBestDeal";
 import Footer from "./components/Footer";
 
 function PropertyDetails() {
