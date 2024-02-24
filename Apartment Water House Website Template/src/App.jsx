@@ -2,15 +2,15 @@
 import Preloader from "./components/Preloader";
 import SubHeader from "./components/SubHeader";
 import HeaderAreaHeaderSticky from "./components/HeaderAreaHeaderSticky";
-import MainBanner from "./components/MainBanner";
-import FeaturedSection from "./components/FeaturedSection";
-import VideoSection from "./components/VideoSection";
-import VideoComponent from "./components/VideoSection";
-import FunFacts from "./components/FunFacts";
-import SectionBestDeal from "./components/SectionBestDeal";
-import PropertiesSection from "./components/PropertiesSection";
-import ContactSection from "./components/ContactSection";
-import ContactContent from "./components/ContactContent";
+import MainBanner from "./components/homePage/MainBanner";
+import FeaturedSection from "./components/homePage/FeaturedSection";
+import VideoSection from "./components/homePage/VideoSection";
+import VideoComponent from "./components/homePage/VideoComponent";
+import FunFacts from "./components/homePage/FunFacts";
+import SectionBestDeal from "./components/homePage/SectionBestDeal";
+import PropertiesSection from "./components/homePage/PropertiesSection";
+import ContactSection from "./components/homePage/ContactSection";
+import ContactContent from "./components/homePage/ContactContent";
 import Footer from "./components/Footer";
 
 function App() {
