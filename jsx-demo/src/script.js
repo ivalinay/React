@@ -6,16 +6,13 @@ const rootDomElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootDomElement);
 
 // none  JSX component
-function Footer(){
- const reactElement = React.createElement(
-  'div',
-  {className: 'site-footer'},
-  React.createElement('p',{},"All rights reerved")
-  );
 
-  console.log(reactElement);
-  
-  return reactElement;
+function FooterText() {
+  return React.createElement("p", {}, "All rights reserved  &copy ");
+}
+
+function Footer() {
+  return React.createElement("div", { className: "site-footer" }, React.createElement(FooterText));
 }
 
 const headerJSX = (
