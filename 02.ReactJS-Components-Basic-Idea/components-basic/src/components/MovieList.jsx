@@ -1,5 +1,4 @@
 export default function MovieList(props) {
-
   return (
     <div className="movie-list">
       <h2>{props.headingText}</h2>
@@ -7,7 +6,6 @@ export default function MovieList(props) {
       <ul>
         <li>First movie</li>
         <li>Second movie</li>
-        <li>Third movie</li>
       </ul>
     </div>
   );
