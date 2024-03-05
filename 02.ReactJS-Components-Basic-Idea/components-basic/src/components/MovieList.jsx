@@ -1,4 +1,5 @@
 export default function MovieList(props) {
+
   return (
     <div className="movie-list">
       <h2>{props.headingText}</h2>
