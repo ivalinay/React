@@ -11,6 +11,7 @@ import SectionBestDeal from "./components/homePage/SectionBestDeal";
 import PropertiesSection from "./components/homePage/PropertiesSection";
 import ContactSection from "./components/homePage/ContactSection";
 import ContactContent from "./components/homePage/ContactContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
