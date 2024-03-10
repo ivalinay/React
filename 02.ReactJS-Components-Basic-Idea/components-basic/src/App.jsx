@@ -1,6 +1,5 @@
 import MovieList from "./components/MovieList";
 import movies from "./assets/movies";
-import "./App.css";
 
 function App() {
   return (
