@@ -6,10 +6,10 @@ export default function MovieList(props) {
     <div className="movie-list"> 
     <Heading>{props.headingText}</Heading>
       <ul>
-        <Movie data={props.movies[0]} />
-        <Movie data={props.movies[1]} />
-        <Movie data={props.movies[2]} />
-        <Movie data={props.movies[3]} />
+        <Movie movieData={props.movies[0]} />
+        <Movie movieData={props.movies[1]} />
+        <Movie movieData={props.movies[2]} />
+        <Movie movieData={props.movies[3]} />
       </ul>
     </div>
   );
