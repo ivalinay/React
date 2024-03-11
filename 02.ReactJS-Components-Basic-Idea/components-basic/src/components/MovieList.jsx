@@ -7,12 +7,12 @@ export default function MovieList(props) {
 
       <ul>
         <li>
-        <li><Movie data={props[0]} /></li>
-         <li><Movie data={props[1]} /></li>
-         <li> <Movie data={props[2]} /></li>
-         <li> <Movie data={props[2]} /></li>
-         <li> <Movie data ={props[3]}/></li>
-         <li>< Movie data = {props[4]}/></li></li>
+          <li>
+            <Movie data={props.movies[0]} />
+            <Movie data={props.movies[1]} />
+            <Movie data={props.movies[2]} />
+          </li>
+        </li>
       </ul>
     </div>
   );
