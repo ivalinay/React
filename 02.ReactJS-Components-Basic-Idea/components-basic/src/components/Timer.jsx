@@ -1,9 +1,14 @@
-export default function Timer(props){
+export default function Timer(props) {
+let time = 0; 
+
+
+
 return (
 <div>
     <h3>Timer</h3>
     
-</div>
 
-)
+    <p>{time}</p>
+</div>
+);
 }
