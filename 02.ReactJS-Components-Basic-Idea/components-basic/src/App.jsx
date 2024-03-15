@@ -1,4 +1,5 @@
 import MovieList from "./components/MovieList";
+import Timer from "./components/Timer";
 import movies from "./assets/movies";
 import "./App.css";
 
