@@ -2,6 +2,8 @@ import { useState } from "react";
 
 export default function Timer(props) {
   const hookResult = useState();
+  const stateValue = hookResult[0];
+  const setState = kookResult[1];
 
   let time = 0;
   console.log(`Current time is = ${time}`);
