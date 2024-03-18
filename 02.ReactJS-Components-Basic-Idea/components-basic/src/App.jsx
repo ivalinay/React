@@ -7,7 +7,9 @@ function App() {
   return (
     <div>
       <h1>My first Dynamic React Application</h1>
-      <Timer />
+      <Timer startTime ={5} />
+      <Timer startTime = {6}/>
+      <Timer startTime = {7} />
 
       <MovieList movies={movies} headingText="Movie List" />
     </div>

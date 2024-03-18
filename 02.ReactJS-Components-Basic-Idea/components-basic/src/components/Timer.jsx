@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Timer(props) {
-  const [time, setTime] = useState(0); // Pass initial state 
+  const [time, setTime] = useState(props.startTime); // Pass initial state 
   // let time = 0;
   
   console.log(`Current time is = ${time}`);
