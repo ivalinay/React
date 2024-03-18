@@ -7,7 +7,7 @@ export default function Counter(props) {
     <div>
       <h1> Counter</h1>
 
-      <p> Count: </p>
+      <p> Count: {count}</p>
     </div>
   );
 }
