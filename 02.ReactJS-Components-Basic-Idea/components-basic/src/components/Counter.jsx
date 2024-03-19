@@ -11,13 +11,18 @@ export default function Counter(props) {
     setCount(count - 1);
   };
 
+  const clearCounterHandler = () => {
+    setCount(0);
+  };
+
   return (
     <div>
       <h1> Counter</h1>
 
       <p> Count: {count}</p>
-      <button onClick={incrementClickHandler}>+</button>
       <button onClick={decrementClickHandler}>-</button>
+      <button onClick={clearCounterHandler}>clear</button>
+      <button onClick={incrementClickHandler}>+</button>
     </div>
   );
 }
