@@ -16,15 +16,8 @@ export default function Counter(props) {
     setCount(0);
   };
 
-  //   if (count < 0) {
-  //     return <h3>Invalid count!</h3>;
-  //   }
-
-  let warning = null;
-
-  if (count < 0) {
-    warning = <p>Invalid count!</p>;
-  }
+  
+ 
 
   return (
     <div>
