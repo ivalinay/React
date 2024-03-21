@@ -16,14 +16,15 @@ export default function Counter(props) {
     setCount(0);
   };
 
-  
- 
+  //   if (count < 0) {
+  //     return <h3>Invalid count!</h3>;
+  //   }
 
   return (
     <div>
       <h3> Counter</h3>
 
-      {warning}
+      {count < 0 ? <p>Invalid count!</p> : null}
 
       <p> Count: {count}</p>
       <button onClick={decrementClickHandler}>-</button>
