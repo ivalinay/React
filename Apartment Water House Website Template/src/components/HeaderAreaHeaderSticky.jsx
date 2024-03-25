@@ -6,7 +6,7 @@ export default function HeaderAreaHeaderSticky() {
             <div className="col-12">
               <nav className="main-nav">
                 <a href="index.html" className="logo">
-                  <h1>Villa</h1>
+<h3>Water House</h3>
                 </a>
                 <ul className="nav">
                   <li>
