@@ -19,7 +19,7 @@ export default function ContactSection() {
                 <div className="item phone">
                   <img src="/images/phone-icon.png" alt="" style={{ maxWidth: "52px" }} />
                   <h6>
-                    +359 877 136 424
+                    +359 899 89 1555
                     <br />
                     <span>Phone Number</span>
                   </h6>
@@ -29,7 +29,7 @@ export default function ContactSection() {
                 <div className="item email">
                   <img src="/images/email-icon.png" alt="" style={{ maxWidth: "52px" }} />
                   <h6>
-                    sv.stoichkov@yahoo.com
+                    ivalina757@gmail.com
                     <br />
                     <span>Business Email</span>
                   </h6>
