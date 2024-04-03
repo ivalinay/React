@@ -19,6 +19,7 @@ export default function ContactPageSection (){
                     <h6>
                       010-020-0340
                       <br />
+                      
                       <span>Phone Number</span>
                     </h6>
                   </div>
