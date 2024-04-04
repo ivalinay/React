@@ -88,7 +88,7 @@ export default function FeaturedSection(){
                   <li>
                     <img src="/images/info-icon-01.png" alt="" style={{ maxWidth: "52px" }} />
                     <h4>
-                      250 m2
+                      115 м²
                       <br />
                       <span>Total Flat Space</span>
                     </h4>
