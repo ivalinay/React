@@ -82,7 +82,7 @@ export default function FeaturedSection(){
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            {/* <div className="col-lg-3">
               <div className="info-table">
                 <ul>
                   <li>
@@ -119,7 +119,7 @@ export default function FeaturedSection(){
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
