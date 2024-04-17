@@ -4,7 +4,6 @@ import SubHeader from "./components/SubHeader";
 import HeaderAreaHeaderSticky from "./components/HeaderAreaHeaderSticky";
 import MainBanner from "./components/homePage/MainBanner";
 import FeaturedSection from "./components/homePage/FeaturedSection";
-import FeatureList from "./components/homePage/FeatureList";
 import VideoSection from "./components/homePage/VideoSection";
 import VideoComponent from "./components/homePage/VideoComponent";
 import FunFacts from "./components/homePage/FunFacts";
@@ -22,7 +21,6 @@ function App() {
       <HeaderAreaHeaderSticky />
       <MainBanner />
       <FeaturedSection />
-      <FeatureList headingText="Feature List" secondaryText="Secondary Text" />
       <VideoSection />
       <VideoComponent />
       <FunFacts />
