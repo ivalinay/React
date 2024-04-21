@@ -120,7 +120,7 @@ export default function SectionBestDeal() {
                   <div className="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
                     <div className="row">
                       <div className="col-lg-3">
-                        
+                      
                         <div className="info-table">
                           <ul>
                             <li>
