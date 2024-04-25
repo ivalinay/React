@@ -9,8 +9,6 @@ const root = ReactDOM.createRoot(rootDomElement);
 function FooterText() {
     return React.createElement('p', {}, `All rights reserved &copy;`);
 }
-
-
 function Footer() {
     return React.createElement(
         'div',
