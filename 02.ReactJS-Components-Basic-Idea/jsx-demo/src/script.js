@@ -16,7 +16,6 @@ function Footer() {
         React.createElement(FooterText),
     );
 }
-
 const headerJSX = (
     <div>
         <header className='site-header'>
