@@ -138,6 +138,7 @@ export default function SectionBestDeal() {
                             <li>
                               Payment Process <span>Bank</span>
                             </li>
+
                             
                           </ul>
                         </div>
