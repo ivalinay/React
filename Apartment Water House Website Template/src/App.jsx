@@ -11,11 +11,13 @@ import SectionBestDeal from "./components/homePage/SectionBestDeal";
 import ContactSection from "./components/homePage/ContactSection";
 import ContactContent from "./components/homePage/ContactContent";
 import Footer from "./components/Footer";
+import Property from "./Property";
 
 function App() {
   return (
     <div>
-      <Preloader />
+      <Property />
+      {/* <Preloader />
       <SubHeader />
       <HeaderAreaHeaderSticky />
       <MainBanner />
@@ -26,7 +28,7 @@ function App() {
       <SectionBestDeal />
       <ContactSection />
       <ContactContent />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

@@ -46,7 +46,7 @@ export default function SectionBestDeal() {
                               Number of rooms <span>4</span>
                             </li>
                             <li>
-                              Parking Available <span>Yes</span>
+                              Y Parking Available <span>es</span>
                             </li>
                             <li>
                               Payment Process <span>Bank</span>
@@ -120,7 +120,6 @@ export default function SectionBestDeal() {
                   <div className="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
                     <div className="row">
                       <div className="col-lg-3">
-                      
                         <div className="info-table">
                           <ul>
                             <li>
@@ -138,7 +137,6 @@ export default function SectionBestDeal() {
                             <li>
                               Payment Process <span>Bank</span>
                             </li>
-
                           </ul>
                         </div>
                       </div>
