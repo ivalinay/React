@@ -85,7 +85,7 @@ export default function FeaturedSection() {
             </div>
           </div>
 
-          <FeatureList/>
+          <FeatureList className="col-lg-3" />
         </div>
       </div>
     </div>

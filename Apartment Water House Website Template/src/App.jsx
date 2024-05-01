@@ -7,17 +7,16 @@ import FeaturedSection from "./components/homePage/FeaturedSection";
 import VideoSection from "./components/homePage/VideoSection";
 import VideoComponent from "./components/homePage/VideoComponent";
 import FunFacts from "./components/homePage/FunFacts";
-import SectionBestDeal from "./components/homePage/SectionBestDeal";
 import ContactSection from "./components/homePage/ContactSection";
 import ContactContent from "./components/homePage/ContactContent";
 import Footer from "./components/Footer";
-import Property from "./Property";
+import PropertyDetails from "./PropertyDetails";
 
 function App() {
   return (
     <div>
-      <Property />
-      {/* <Preloader />
+      {/* <PropertyDetails /> */}
+      <Preloader />
       <SubHeader />
       <HeaderAreaHeaderSticky />
       <MainBanner />
@@ -25,10 +24,9 @@ function App() {
       <VideoSection />
       <VideoComponent />
       <FunFacts />
-      <SectionBestDeal />
       <ContactSection />
       <ContactContent />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
