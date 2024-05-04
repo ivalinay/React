@@ -5,6 +5,7 @@ export default function FeatureList(props) {
     <div className={props.className}>
       <div className="info-table">
         <ul>
+          
           <li>
             <Feature imgSrc="/images/info-icon-01.png" heading="115 м²" subheading="Total Flat Space" />
           </li>
