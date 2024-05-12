@@ -19,7 +19,6 @@ export default function FeatureList(props) {
           </li>
         </ul>
       </div>
-      
     </div>
   );
 }
