@@ -20,5 +20,6 @@ export default function FeatureList(props) {
         </ul>
       </div>
     </div>
+    
   );
 }
