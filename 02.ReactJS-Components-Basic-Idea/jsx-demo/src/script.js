@@ -17,6 +17,7 @@ function Footer() {
     );
 }
 
+
 const headerJSX = (
     <div>
         <header className='site-header'>
