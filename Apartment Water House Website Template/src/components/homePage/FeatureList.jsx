@@ -2,6 +2,7 @@ import Feature from "./Feature";
 
 export default function FeatureList(props) {
   return (
+    
     <div className={props.className}>
       <div className="info-table">
         <ul>
