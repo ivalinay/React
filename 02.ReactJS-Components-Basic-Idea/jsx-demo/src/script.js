@@ -28,6 +28,4 @@ const headerJSX = (
         <Footer />
     </div>
 );
-
-
 root.render(headerJSX);
