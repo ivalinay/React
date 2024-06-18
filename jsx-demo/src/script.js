@@ -15,6 +15,8 @@ const headerJSX = (
     <h2>The best syntax ever!</h2>
 
     <p>something else here</p>
+    <p>something else here</p>
+    
   </header>
 );
 

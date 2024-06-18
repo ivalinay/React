@@ -21,21 +21,9 @@ var headerJSX = React.createElement(
   React.createElement(
     "header",
     { className: "site-header" },
-    React.createElement(
-      "h1",
-      null,
-      "Hello from JSX!"
-    ),
-    React.createElement(
-      "h2",
-      null,
-      "The best syntax ever!"
-    ),
-    React.createElement(
-      "p",
-      null,
-      "something else here"
-    )
+    React.createElement("h1", null, "Hello from JSX!"),
+    React.createElement("h2", null, "The best syntax ever!"),
+    React.createElement("p", null, "something else here")
   ),
   React.createElement(Footer, null)
 );
