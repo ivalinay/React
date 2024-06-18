@@ -5,6 +5,12 @@ const rootDomElement = document.getElementById("root");
 
 const root = ReactDOM.createRoot(rootDomElement);
 
-const reactHeadingElement = React.createElement("h1", {}, "Hello From JSX!");
+const reactHeading = React.createElement("h1", {}, "Hello From JSX!");
+const reactSecondHeading = React.createElement("h2", {}, "The best syntax ever!");
+const header = React.createElement(
+  "header",
+  { className: "site-header" },
+  reactHeading,
+  reactSecondHeading,);
 
-root.render(reactHeadingElement);
+root.render(header);
