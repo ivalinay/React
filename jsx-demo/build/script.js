@@ -15,7 +15,7 @@ function Footer() {
   return React.createElement("div", { className: "site-footer" }, React.createElement(FooterText));
 }
 
-var headerJSX = React.createElement(
+var body= React.createElement(
   "div",
   null,
   React.createElement(
@@ -28,4 +28,4 @@ var headerJSX = React.createElement(
   React.createElement(Footer, null)
 );
 
-root.render(headerJSX);
+root.render(body);
