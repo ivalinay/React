@@ -17,6 +17,7 @@ const headerJSX = (
     <p>something else here</p>
     <p>something else here</p>
     
+    
   </header>
 );
 
