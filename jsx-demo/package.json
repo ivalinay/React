@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
     "build": "npx babel --watch src --out-dir build --presets react-app/prod"
   },
   "keywords": [],

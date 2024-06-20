@@ -23,7 +23,7 @@ const Footer = () => {
 const headerJSX = (
   <div>
     <header className="site-header">
-      <h1>Hello from JSX!</h1>
+      <h1>Hello from JSX!2</h1>
       <h2>The best syntax ever!</h2>
 
       <p>something else here</p>
