@@ -169,8 +169,6 @@ function App() {
           </div>
         </section>
       </div>
-
-
       <section className="service_section layout_padding">
         <div className="service_container">
           <div className="container ">
