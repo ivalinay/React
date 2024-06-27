@@ -1,2 +1,2 @@
 # React
-Improved code 
+Deleted code 
