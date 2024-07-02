@@ -1,2 +1,2 @@
 # React
-crypto currency project imepoved 
+project crypto currency updated 
