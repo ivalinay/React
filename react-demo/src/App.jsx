@@ -7,7 +7,6 @@ import OurTeam from "./components/OurTeam";
 import WhyUs from "./components/WhyUs";
 
 function App() {
-  
   return (
     <div>
       <Header />
@@ -20,5 +19,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
