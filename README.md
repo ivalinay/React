@@ -1,2 +1,2 @@
 # React
-react-demo improved code
+Fixed code 
