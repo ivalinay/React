@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(rootDomElement);
 //   return React.createElement("div", { className: "site-footer" }, React.createElement("p", {}, "All rights reserved"));
 // };
 
+
 const Footer = () => {
   <div className="site-footer">
     <p>All rights reserved &copy;</p>
