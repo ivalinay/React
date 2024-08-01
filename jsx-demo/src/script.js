@@ -7,12 +7,12 @@ const root = ReactDOM.createRoot(rootDomElement);
 
 // none JSX component 
 function Footer(){
-  const reactElement = React.createElement(
+  return React.createElement(
     'div',
     {className: 'site-footer'},
     React.createElement('p',{},'All rights reserved'),
   )
-  return reactElement;
+
 }
 
 const headerJSX = (
@@ -23,6 +23,7 @@ const headerJSX = (
 
       <p>something else here</p>
     </header>
+
     <Footer />
   </div>
 );
