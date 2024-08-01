@@ -5,6 +5,14 @@ const rootDomElement = document.getElementById("root");
 
 const root = ReactDOM.createRoot(rootDomElement);
 
+// none JSX component 
+function Footer(){
+  const reactElement = React.createElement(
+    'div',
+    {className: 'site-footer'},
+  )
+}
+
 const headerJSX = (
   <div>
     <header className="site-header">
