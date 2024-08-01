@@ -10,7 +10,9 @@ function Footer(){
   const reactElement = React.createElement(
     'div',
     {className: 'site-footer'},
+    React.createElement('p',{},'All rights reserved'),
   )
+  return reactElement;
 }
 
 const headerJSX = (
