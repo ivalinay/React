@@ -5,22 +5,21 @@ const rootDomElement = document.getElementById("root");
 
 const root = ReactDOM.createRoot(rootDomElement);
 
-// none JSX component 
-function Footer(){
-  return React.createElement(
-    'div',
-    {className: 'site-footer'},
-    React.createElement('p',{},'All rights reserved'),
-  )
-
+// none JSX component
+function FooterText() {
+  return React.createElement("p", {}, "All rights reserved R");
 }
+
+function Footer() {
+  return React.createElement("div", { className: "site-footer" }, React.createElement(FooterText));
+}
+
 
 const headerJSX = (
   <div>
     <header className="site-header">
-      <h1>Hello from JSX!2</h1>
+      <h1>Hello from JSX!</h1>
       <h2>The best syntax ever!</h2>
-
       <p>something else here</p>
     </header>
 
