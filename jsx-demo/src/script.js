@@ -10,6 +10,7 @@ function FooterText() {
   return React.createElement("p", {}, "All rights reserved R");
 }
 
+
 function Footer() {
   return React.createElement("div", { className: "site-footer" }, React.createElement(FooterText));
 }
