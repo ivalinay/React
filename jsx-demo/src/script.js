@@ -5,12 +5,11 @@ const rootDomElement = document.getElementById("root");
 
 const root = ReactDOM.createRoot(rootDomElement);
 
+
 // none JSX component
 function FooterText() {
   return React.createElement("p", {}, "All rights reserved R");
 }
-
-
 function Footer() {
   return React.createElement("div", { className: "site-footer" }, React.createElement(FooterText));
 }
