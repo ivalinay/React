@@ -4,8 +4,6 @@ import "../node_modules/react-dom/umd/react-dom.production.min.js";
 const rootDomElement = document.getElementById("root");
 
 const root = ReactDOM.createRoot(rootDomElement);
-
-
 // none JSX component
 function FooterText() {
   return React.createElement("p", {}, "All rights reserved R");
