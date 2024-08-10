@@ -1,2 +1,2 @@
 # React
-Fixed code 
+Deleted code 
