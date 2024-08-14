@@ -5,7 +5,7 @@ const rootDomElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootDomElement);
 // none JSX component
 function FooterText() {
-  return React.createElement("p", {}, "All rights reserved R");
+  return React.createElement("p", {}, "All rights reserved \u00A9  ;");
 }
 function Footer() {
   return React.createElement("div", { className: "site-footer" }, React.createElement(FooterText));
