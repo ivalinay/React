@@ -1,2 +1,2 @@
 # React
-Fixed code 
+Improved code 
